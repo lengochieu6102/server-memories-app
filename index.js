@@ -16,7 +16,7 @@ app.use('/posts',postRoutes);
 
 app.get('/',(req, res)=>{
     res.send("hello my app");
-})
+});
 
 const CONNECTION_URL = 'mongodb+srv://lengochieu6102:lengochieu6102@cluster0.mgslx.mongodb.net/test';
 const PORT = process.env.PORT || 5000;
